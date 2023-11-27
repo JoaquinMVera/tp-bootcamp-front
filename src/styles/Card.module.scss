@@ -1,0 +1,305 @@
+.cardContainer{
+    display: flex;
+    width: 21.875rem;
+    padding: 1.5rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+
+
+
+    border-radius: 1rem;
+    background: var(--allaria-greyscale-white, #FFF);
+
+    /* Sombrita */
+    box-shadow: 4px 4px 16px 0px rgba(0, 0, 0, 0.05);
+}
+
+
+.eventContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+    align-self: stretch;
+}
+
+.event {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.75rem;
+    align-self: stretch;
+}
+
+
+.eventTitle{
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    align-self: stretch;
+}
+
+.eventTitle p{
+    height: 2.84294rem;
+    flex: 1 0 0;
+    color: var(--allaria-greyscale-greyscale-800, #262626);
+    font-family: Poppins;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 1.6875rem */
+}
+
+.titleDate{
+    display: flex;
+width: 3.125rem;
+height: 3.125rem;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+border-radius: 0.5rem;
+background: var(--allaria-primary-primary-normal-300, #0150B7);
+}
+
+.titleDate p:nth-child(1){
+    color: #FFF;
+font-family: Inter;
+font-size: 0.75rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: uppercase;
+}
+
+.titleDate p:nth-child(2){
+    color: #FFF;
+font-family: Inter;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: uppercase;
+}
+
+.iconInfoContainer{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 0.5rem;
+align-self: stretch;
+}
+
+
+
+.dateAndPlaceContainer{
+    display: flex;
+align-items: flex-start;
+align-content: flex-start;
+gap: 0.5rem 1rem;
+align-self: stretch;
+flex-wrap: wrap;
+}
+
+
+.hour,.place{
+    display: flex;
+justify-content: center;
+align-items: center;
+gap: 0.25rem;
+}
+
+.hour img,.place img {
+    width: 0.875rem;
+    height: 0.875rem;
+}
+
+.hour p,.place p {
+    color: var(--allaria-greyscale-greyscale-800, #262626);
+font-family: Inter;
+font-size: 0.75rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+
+.typeContainer{
+    display: flex;
+justify-content: center;
+align-items: center;
+gap: 0.25rem;
+}
+
+
+.typeContainer p {
+    color: var(--allaria-greyscale-greyscale-800, #262626);
+font-family: Inter;
+font-size: 0.75rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.typeIconContainer{
+    display: flex;
+width: 0.875rem;
+height: 0.875rem;
+justify-content: center;
+align-items: center;
+}
+
+.typeIconContainer img {
+    width: 0.875rem;
+    height: 0.875rem;
+    flex-shrink: 0;
+}
+
+.typeIconContainer p {
+    color: var(--allaria-greyscale-greyscale-800, #262626);
+font-family: Inter;
+font-size: 0.75rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.description{
+    display: flex;
+align-items: flex-start;
+gap: 0.625rem;
+align-self: stretch;
+}
+
+.description p {
+    color: var(--allaria-greyscale-greyscale-500, #8C8C8C);
+font-family: DM Sans;
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 1.5rem */
+flex: 1 0 0;
+}
+
+
+.callToActionContainer {
+    display: flex;
+justify-content: space-between;
+align-items: center;
+align-self: stretch;
+}
+
+.buyButton{
+    display: flex;
+padding: 0.625rem 1.25rem;
+justify-content: center;
+align-items: center;
+gap: 0.625rem;
+border-radius: 2.5rem;
+background: var(--allaria-primary-primary-normal-300, #0150B7);
+
+}
+
+
+.buyButton p {
+    color: #FFF;
+font-family: Inter;
+font-size: 1rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: uppercase;
+text-decoration: none;
+
+}
+
+.buyButton:disabled{
+    opacity: 0.5;  /* Ajusta el valor de opacidad según tus preferencias */
+background: var(--allaria-greyscale-greyscale-200, #F0F0F0);
+
+/* Sombrita */
+box-shadow: 4px 4px 16px 0px rgba(0, 0, 0, 0.05);
+text-decoration: none;
+
+}
+
+.buyButton:disabled p {
+    color: var(--allaria-greyscale-greyscale-500, #8C8C8C);
+    
+font-family: Inter;
+font-size: 1rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: uppercase;
+
+}
+
+
+
+.availableTickets {
+    border-radius: 1.25rem;
+    background: #EBF9F3;
+    display: flex;
+padding: 0.25rem 0.5rem;
+justify-content: center;
+align-items: center;
+gap: 0.25rem;
+}
+
+.availableTickets p{
+    color: #34AD7A;
+font-family: Inter;
+font-size: 0.75rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.lastTickets{
+    border-radius: 1.25rem;
+background: #FCF2E9;
+display: flex;
+padding: 0.25rem 0.5rem;
+justify-content: center;
+align-items: center;
+gap: 0.25rem;
+}
+
+.lastTickets img,.soldOut img {
+    width: 0.875rem;
+height: 0.875rem;
+}
+
+.lastTickets p {
+    color: #E18C3D;
+font-family: Inter;
+font-size: 0.75rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.soldOut{
+    border-radius: 1.25rem;
+background: #FAEBEB;
+display: flex;
+padding: 0.25rem 0.5rem;
+justify-content: center;
+align-items: center;
+gap: 0.25rem;
+}
+
+.soldOut p {
+    color: #C33;
+font-family: Inter;
+font-size: 0.75rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.link {
+    text-decoration: none;
+
+}

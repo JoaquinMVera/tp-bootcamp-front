@@ -1,0 +1,58 @@
+.container{
+    width:  100%;
+    height: 6.25rem;
+    background: var(--allaria-primary-primary-normal-300, #0150B7);
+    
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.625rem;
+}
+
+
+.navFrame{
+    width: 77.5rem;
+    height: 4.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.userFrameContainer{
+    display: flex;
+    flex-direction: row; /* Organizar los elementos en columnas */
+    align-items: center; /* Centrar verticalmente los elementos */
+    justify-content: center;
+    gap:1rem;
+}
+
+.userFrameContainer img {
+    width: 3rem;
+    height: 3rem;
+}
+
+.userFrameContainer p{
+    color: #FFF;
+font-family: DM Sans;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+
+.iconContainer{
+    width: 13.875rem;
+    height: 7.8125rem;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;
+}
+
+.iconContainer img {
+    width: 6.723rem;
+height: 3.7855rem;
+
+}

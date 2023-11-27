@@ -1,0 +1,33 @@
+.searchContainer{
+    display: flex;
+    width: 23.0625rem;
+    height: 2.375rem;
+    padding: 0rem 1.0625rem;
+    align-items: center;
+    gap: 1.0625rem;
+    flex-shrink: 0;
+
+    border-radius: 0.5rem;
+    border: 1px solid var(--allaria-primary-primary-light-100, #D9E5F4);
+    background: var(--main-colors-white, #FFF);
+}
+
+.inputContainer{
+    display: flex;
+width: 13.9375rem;
+align-items: center;
+gap: 1.0625rem;
+flex-shrink: 0;
+}
+
+
+.inputContainer input  {
+    color: var(--allaria-secondary-secondary-light-200, #ACB3BF);
+    background: var(--main-colors-white, #FFF);
+    border:none;
+font-family: Poppins;
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
